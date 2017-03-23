@@ -5,35 +5,49 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-03-10T17:14:20-00:00</lastmod>
+<lastmod>2017-03-23T09:21:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-03-10T17:14:20-00:00</lastmod>
+<lastmod>2017-03-23T09:21:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-03-10T17:14:20-00:00</lastmod>
+<lastmod>2017-03-23T09:21:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-03-10T17:14:20-00:00</lastmod>
+<lastmod>2017-03-23T09:21:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2017-03-10T17:08:32+08:00</lastmod>
+<lastmod>2017-03-23T08:52:38+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./xie-tong-chan-pin-she-ji-shi-xi-week-4-zuo-ye.html</loc>
+<lastmod>2017-03-16T12:08:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./xie-tong-chan-pin-she-ji-shi-xi-week-3-zuo-ye.html</loc>
+<lastmod>2017-03-09T12:08:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -54,21 +68,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/zuo-ye.html</loc>
-<lastmod>2017-03-03T12:08:00+08:06</lastmod>
+<lastmod>2017-03-16T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/hw.html</loc>
-<lastmod>2017-03-03T12:08:00+08:06</lastmod>
+<lastmod>2017-03-16T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40423123.html</loc>
-<lastmod>2017-03-03T12:08:00+08:06</lastmod>
+<lastmod>2017-03-16T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
