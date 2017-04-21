@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習40423123林嘉文</title><link href="./" rel="alternate"></link><link href="./feeds/zuo-ye.atom.xml" rel="self"></link><id>./</id><updated>2017-04-12T12:08:00+08:00</updated><entry><title>協同產品設計實習 Week 8 作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-week-8-zuo-ye.html" rel="alternate"></link><published>2017-04-12T12:08:00+08:00</published><updated>2017-04-12T12:08:00+08:00</updated><author><name>40423123</name></author><id>tag:,2017-04-12:./xie-tong-chan-pin-she-ji-shi-xi-week-8-zuo-ye.html</id><summary type="html">&lt;p&gt;期中測驗
 &lt;/p&gt;
-&lt;p&gt;&lt;button onClick="lity('./../data/midterm3.png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 草圖&lt;/button&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src="./../data/midterm3.png"width="800"/&gt;&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
@@ -44,8 +43,8 @@ ctx.lineWidth = 1
 # 配合圖形位置進行座標轉換
 ctx.transform(1, 0, 0, -1, canvas.width/2+250, canvas.height/2+100)
 # 畫出 x 與 y 座標線
-# 各座標值放大 2 倍
-ratio = 2
+# 各座標值放大 4 倍
+ratio = 4
 ctx.moveTo(0, 0)
 ctx.lineTo(-30*ratio, 0)
 start_point = fourbar_list[0].split(",")
