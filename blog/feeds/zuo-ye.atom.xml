@@ -549,16 +549,16 @@ div &lt;= "2b: " +  str(count) + "/" + str(len(student)) + "|" + "2a: " +  str(c
 
 &lt;!-- Cango 程式庫 --&gt;
 
-&lt;script type="text/javascript" src="./../data/w11/cango
+&lt;script type="text/javascript" src="./../data/w12/cango
 /Cango-9v05-min.js"&gt;&lt;/script&gt;
 
-&lt;script type="text/javascript" src="./../data/w11/cango
+&lt;script type="text/javascript" src="./../data/w12/cango
 /CangoAxes-2v09.js"&gt;&lt;/script&gt;
 
-&lt;script type="text/javascript" src="./../data/w11/cango
+&lt;script type="text/javascript" src="./../data/w12/cango
 /CangoAnimation-5v00.js"&gt;&lt;/script&gt;
 
-&lt;script type="text/javascript" src="./../data/w11/cango
+&lt;script type="text/javascript" src="./../data/w12/cango
 /gearUtils-05.js"&gt;&lt;/script&gt;
 
 &lt;canvas id='cango_gear' width='800' height='750'&gt;&lt;/canvas&gt;
