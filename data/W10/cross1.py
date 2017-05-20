@@ -1,5 +1,5 @@
 import sys
-sys.path.append("./m")
+sys.path.append("./W10")
 
 import cross
  
