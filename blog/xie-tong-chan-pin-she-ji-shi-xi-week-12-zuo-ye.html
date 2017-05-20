@@ -466,7 +466,7 @@ ctx = canvas.getContext("2d")
 
 # 模數決定齒的尺寸大小, 囓合齒輪組必須有相同的模數與壓力角
 # 壓力角 pa 單位為角度
-pa = 20
+pa = 1
 # 第1齒輪齒數
 n_g1 = 17
 # 第2齒輪齒數
@@ -479,7 +479,7 @@ m = (0.8*canvas.width)/(n_g1+n_g2+n_g3)
 rp_g1 = m*n_g1/2
 rp_g2 = m*n_g2/2
 rp_g3 = m*n_g3/2
-#單一正齒輪繪圖呼叫格式 Spur(ctx).Gear(x, y, r, n, pa, "blue")
+#單一正齒輪繪圖呼叫格式 Spur(ctx).Gear(x, y, r, n, pa, "red")
 # 開始繪製囓合齒輪輪廓
 # 繪圖第1齒輪的圓心座標, 因為希望繪圖佔去 canvas.width 的 80%, 所以兩邊各預留 10% 距離
 x_g1 = canvas.width*0.1+rp_g1
@@ -677,6 +677,11 @@ set_interval(draw, 2)
                         </a>
                     </li>
                     <li class="list-group-item">
+                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-week-10-zuo-ye.html">
+                            協同產品設計實習  Week 10 作業
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="./xie-tong-chan-pin-she-ji-shi-xi-week-8-zuo-ye.html">
                             協同產品設計實習  Week 8 作業
                         </a>
@@ -684,11 +689,6 @@ set_interval(draw, 2)
                     <li class="list-group-item">
                         <a href="./xie-tong-chan-pin-she-ji-shi-xi-week-7-zuo-ye.html">
                             協同產品設計實習  Week 7 作業
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-week-6-zuo-ye.html">
-                            協同產品設計實習  Week 6 作業
                         </a>
                     </li>
                 </ul>

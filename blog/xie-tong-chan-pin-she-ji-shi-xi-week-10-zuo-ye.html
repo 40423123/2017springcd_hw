@@ -308,10 +308,45 @@ init_mathjax();
 
 <span class="label label-default">Tags</span>
 	<a href="./tag/hw.html">HW</a>
-    
+    <span class="label label-default">Lang</span>
+	<a href="./xie-tong-chan-pin-she-ji-shi-xi-week-10-zuo-ye.html">en</a>
+
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                
+                <!-- PELICAN_END_SUMMARY -->
+
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 cdw10 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/w10']});
+}
+</script>
+
+<!-- 以下實際利用  Brython -->
+
+<div id="container" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    container <= str(math.cos(60*degree)+float(a))
+doc["button1"].bind("click", button1)
+</script>
+
+<p><button id="button1">按下取 a 值</button></p>
             </div>
             <!-- /.entry-content -->
         </article>
@@ -337,6 +372,11 @@ init_mathjax();
                         </a>
                     </li>
                     <li class="list-group-item">
+                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-week-10-zuo-ye.html">
+                            協同產品設計實習  Week 10 作業
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="./xie-tong-chan-pin-she-ji-shi-xi-week-8-zuo-ye.html">
                             協同產品設計實習  Week 8 作業
                         </a>
@@ -344,11 +384,6 @@ init_mathjax();
                     <li class="list-group-item">
                         <a href="./xie-tong-chan-pin-she-ji-shi-xi-week-7-zuo-ye.html">
                             協同產品設計實習  Week 7 作業
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-week-6-zuo-ye.html">
-                            協同產品設計實習  Week 6 作業
                         </a>
                     </li>
                 </ul>
